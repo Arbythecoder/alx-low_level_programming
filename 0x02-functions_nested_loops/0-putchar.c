@@ -2,7 +2,7 @@
 /**
  * main -  prints _putchar, followed by a new line
  * this is written by arbythecoder
- * Return: Always 0.
+ * Return: 0
  */
 
 int main(void)
