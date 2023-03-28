@@ -2,14 +2,16 @@
 
 /**
  * swap_int - swaps the values of two integers
- * @a: pointer to first value
- * @b: pointer to second value
+ * @arbythecoder
+ * @a: swaps and stores address of b
+ * @b: swaps and stores address of a
+ * Return: 0
  */
 void swap_int(int *a, int *b)
 {
-	int c;
+	int d;
 
-	c = *a;
-	*a = *b;
-	*b = c;
+	d = *b;
+	*b = *a;
+	*a = d;
 }
