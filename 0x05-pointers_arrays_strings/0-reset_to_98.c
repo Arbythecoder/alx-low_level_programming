@@ -1,7 +1,11 @@
 #include "main.h"
+
 /**
- *reset_t0_98 - update the value using pointers
- * @n: int to update
- * Return: Always 0.
+ * reset_to_98 - updates the value *n points to.
+ * @n: the number to modify.
  */
-void reset_to_98(int *n){*n = 98;}
+
+void reset_to_98(int *n)
+{
+	*n = 98;
+}
