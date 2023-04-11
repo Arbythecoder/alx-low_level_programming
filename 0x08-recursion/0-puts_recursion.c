@@ -4,7 +4,7 @@
  * _puts_recursion - prints a string, following a new line.
  * @s: the string to be printed.
  *
- * Return: void.
+ * Return: Always 0 (success).
  */
 
 
