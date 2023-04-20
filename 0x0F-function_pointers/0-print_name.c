@@ -2,16 +2,13 @@
 #include <stdio.h>
 
 /**
- * print_name - prints a name using function pointer
- * @name: string to add
+ * print_name - a function that prints a name
+ * @name: name
  * @f: function pointer 
- * Return: nothing
- **/
+ */
 
 void print_name(char *name, void (*f)(char *))
 {
-	if(name ==NULL ||f == NULL)
-		RETURN;
-
-	f(name);
+	if(name && f)
+		f(name);
 }
