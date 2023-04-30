@@ -9,9 +9,9 @@ void free_list(list_t *head)
 list_t *new;
 
 new = malloc(sizeof(list_t));
-if(new == NULL)
+if (new == NULL)
 return;
-new->next =NULL;
+new->next = NULL;
 
 while (head != NULL)
 {
