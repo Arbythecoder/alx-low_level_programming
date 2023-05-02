@@ -5,17 +5,20 @@
  * struct dog - Struct dog
  * @name: Name
  * @age: Age
- * owner: Owner of the dog
+ * owner: Third member
  * Description: This is a struct for dog
  */
 
-typedef struct dog
+struct dog
 {
 char *name;
 float age;
 char *owner;
-}
-dog;
+};
+
+/**
+*dog_t - typedef for struct dog
+*/
 
 typedef struct dog dog_t;
 

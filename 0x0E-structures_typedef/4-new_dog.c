@@ -17,12 +17,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 dog_t *new_dog;
 char *new_name, *new_owner;
 
- /* Allocate memory for a dog struct */
+/* Allocate memory for a dog struct */
 new_dog = malloc(sizeof(dog_t));
 if (new_dog == NULL)
 return (NULL);
 
- /* Allocate memory and copy name */
+/* Allocate memory and copy name */
 new_name = malloc(strlen(name) + 1);
 if (new_name == NULL)
 {
@@ -31,7 +31,7 @@ return (NULL);
 }
 strcpy(new_name, name);
 
- /* Allocate memory and copy owner */
+/* Allocate memory and copy owner */
 new_owner = malloc(strlen(owner) + 1);
 if (new_owner == NULL)
 {
