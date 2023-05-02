@@ -9,14 +9,18 @@
  * Description: This is a struct for dog
  */
 
-struct dog
+typedef struct dog
 {
-	char *name;
-	float age;
-	char *owner;
-};
+char *name;
+float age;
+char *owner;
+}
+dog;
 
 typedef struct dog dog_t;
+
+char *_strcpy(char *dest, char *src);
+int _strlen(char *s);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
